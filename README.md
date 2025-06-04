@@ -15,6 +15,4 @@ ship 🚢, truck 🚚).
   `Flatten ➜ Dense(128) ➜ Dense(10, softmax)`.  
 - **Training** – Adam optimiser, EarlyStopping (`patience=5`) and
   ModelCheckpoint (saves best model).  
-- **Result** – reaches **≈ 70 % validation accuracy** in 20 epochs  
-  (*may vary with hardware/settings*).  
-- All code cells include concise Turkish comments.
+- **Result** – reaches **≈ 70 % validation accuracy** in 20 epochs.
